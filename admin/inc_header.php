@@ -8,7 +8,8 @@
 	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="../assets/summernote/css/summernote-lite.css">
 	<link rel="stylesheet" href="../assets/summernote/plugin/summernote-image-list/summernote-image-list.css">
-	<script defer src="../assets/fontawesome/js/fontawesome.js"></script>
+	<link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.css">
+	<link rel="stylesheet" href="../assets/fontawesome/css/solid.css">
 	<style>
 	    /* I added this to make the summernote dropdown carrets don't appear twice */
 	    .note-btn.dropdown-toggle:after {

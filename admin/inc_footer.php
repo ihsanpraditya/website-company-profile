@@ -24,9 +24,12 @@
 		["insert", ["link", "picture", "imageList", "video", "hr"]],
 		["help", ["help"]]
 	    ],
-	    dialogsInBody: true,
-	    // TODO Jangan lupa icon nya ya
+	    dialogsInBody: true, // If you’re using Summernote within a modal dialog, please set this option as true.
+	    // TODO icon image-list
+	    // TODO koneksi fontawesome
+	    // TODO nama dari list_image.php ganti jadi image_list.php biar mudah dicarinya pakai wildcard im*
 	    imageList: {
+		buttonHtml: '<i class="fa fa-file-image"></i>',
 		endpoint: "list_image.php",
 		fullUrlPrefix: "../assets/img/",
 		thumbUrlPrefix: "../assets/img/"
